@@ -104,7 +104,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/icon"
+                android:src="@drawable/heart"
                 />
 
             <ImageView
@@ -159,43 +159,42 @@
 
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
+            android:id="@+id/butHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="25dp"
-            android:background="@color/white">
+            android:background="@color/white"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/icon" />
+                android:src="@drawable/heart" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/image5"
-                android:src="@drawable/sneakers"
-                />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sneakers" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
                 android:text="BEST SELLER"
                 android:textColor="@color/blue"
-                android:textSize="12sp"
-                android:layout_marginLeft="20dp"
-                />
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nike Air Max"
-                android:textSize="16sp"
-                android:textColor="@color/gray"
                 android:layout_marginLeft="20dp"
-                />
+                android:text="Nike Air Max"
+                android:textColor="@color/gray"
+                android:textSize="16sp" />
 
 
             <LinearLayout
@@ -207,18 +206,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="₽752.00"
-                    android:textSize="14sp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
-                    />
+                    android:text="₽752.00"
+                    android:textSize="14sp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/image_3"
                     android:layout_marginLeft="60dp"
-                    />
+                    android:src="@drawable/image_3" />
 
 
             </LinearLayout>
