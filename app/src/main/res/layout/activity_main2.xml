@@ -18,6 +18,7 @@
         android:src="@drawable/sneakershop"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
+        android:id="@+id/butBack"
         />
 
 
@@ -87,7 +88,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/lineOfSneakears"
+        android:src="@drawable/lineofsneakears"
         android:layout_marginTop="15dp"
         android:orientation="horizontal"
         android:id="@+id/categoriesOfSneakers"

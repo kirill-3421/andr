@@ -1,6 +1,9 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.LinearLayout;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,5 +29,16 @@ public class mainscreen extends AppCompatActivity {
         RecyclerView main = findViewById(R.id.categories);
         CategoriesAdapter adapter = new CategoriesAdapter(this, list);
         main.setAdapter(adapter);
+
+        LinearLayout button = findViewById(R.id.butHome);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(mainscreen.this, MainActivity2.class);
+                startActivity(intent);
+            }
+        });
     }
 }
